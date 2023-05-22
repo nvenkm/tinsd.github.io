@@ -1,0 +1,173 @@
+body{
+    background-color: #EAEAEA;
+}
+
+.my-bg-color{
+    background-color: #fe3c72;
+    
+}
+
+.my-text-color{
+    color: white;
+}
+
+.coverpage{
+    margin-bottom: 2rem;
+}
+
+div.container-fluid a.brand-hover{ 
+    color: #fff !important;
+}
+
+.cover-row{
+    margin: 1rem 0rem !important;
+}
+.cover-text{
+    margin-bottom: 0;
+    margin: 20px 0px;
+}
+
+.navigation-bar{
+    padding: 4rem;
+}
+
+.sdcover{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.list-size{
+    font-size: 1.5em;
+}
+
+.btnn{
+    color: #EAEAEA;
+    background-color: #fe3c72;
+    margin: 2px 10px 5px 0px;
+    border: 1px solid #fe3c72;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.btnn:hover{
+    background-color: #EAEAEA;
+    border: 1px solid #fe3c72;
+    color: #fe3c72;
+}
+
+/* CAROUSEL */
+
+.carousel{
+    margin-bottom: 3rem;
+}
+
+
+.bg-image{
+    position: relative;
+}
+
+.bg-image::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images/sd-office-photo2.jpg);
+    background-size: cover;
+    opacity: 0.3 ;
+    /* height: 500px; */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+#carousel1{
+    height: 24rem;
+}
+
+.carousel-item{
+    margin-top: 10rem;
+}
+
+.carousel-p-font{
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    /* height: 100px; */
+    /* width: 100px; */
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+/* card */
+
+    .row-custom{
+        margin: 1rem 2rem;
+    }
+
+
+
+    .card-body{
+        text-align: center;
+    }
+
+/* footer */
+.footer{
+    height: 6rem;
+}
+
+.footer-link{
+    margin: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.footer-icon{
+    font-size: 1.9em;
+    color: black;
+}
+
+.footer a:hover{
+    color: black;
+}
+
+
+/* FOOTER2 */
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.footer-icon{
+    margin: 0px 20px;
+}
+
+.copyright-text{
+    text-align: center;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width:991px)
+{
+    .coverpage{
+        text-align: center;
+    }
+
+}
+
+
+@media(max-width:643px)
+{
+    .navigation-bar{
+    padding: 2rem;
+    }
+}
