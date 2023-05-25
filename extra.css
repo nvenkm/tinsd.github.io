@@ -28,7 +28,7 @@ div.container-fluid a.brand-hover{
 }
 
 .navigation-bar{
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .sdcover{
@@ -47,6 +47,7 @@ div.container-fluid a.brand-hover{
     border: 1px solid #fe3c72;
     border-radius: 5px;
     padding: 5px;
+    text-decoration : none;
     
 }
 .btnn:hover{
